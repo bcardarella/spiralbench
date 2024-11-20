@@ -110,7 +110,7 @@ defmodule SpiralbenchWeb.SpiralLive do
     ~Z"""
     <div>
       <%= for [x, y] <- @tiles do %>
-        <div class="tile" foo={} style="left: 123px; top: 456: 456px"></div>
+        <div class="tile" style={"left: 123px; top: 456: 456px"}></div>
       <% end %>
     </div>
     """
